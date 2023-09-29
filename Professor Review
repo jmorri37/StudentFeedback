@@ -1,0 +1,24 @@
+﻿CREATE TABLE IF NOT EXISTS Student login (
+   sID serial PRIMARY KEY, 
+   firstname VARCHAR(50) NOT NULL,
+   lastname VARCHAR(50) NOT NULL,
+   email adress VARCHAR(100) NOT NULL,
+  
+   status Boolean NOT NULL,
+   
+
+﻿CREATE TABLE IF NOT EXISTS Administrator login (
+   tID serial PRIMARY KEY,
+   firstname VARCHAR(50) NOT NULL,
+   lastname VARCHAR(50) NOT NULL,
+   email address VARCHAR(100) NOT NULL,
+   .... VARCHAR(50) NOT NULL,
+   status Boolean NOT NULL,
+
+﻿CREATE TABLE IF NOT EXISTS Student review (
+   sID rate PRIMARY KEY,
+   firstname VARCHAR(50) NOT NULL,
+   lastname VARCHAR(50) NOT NULL,
+   review comments VARCHAR(100) NOT NULL,
+  
+  
